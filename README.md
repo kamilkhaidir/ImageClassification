@@ -35,10 +35,10 @@ A **97.5 %-accurate** transfer-learning model that distinguishes 36 kinds of fru
 | Test accuracy | **97.49%**|
 | Test loss     | 0.1492    |
 
-![Learning Curves](assets/fig_curves.png)
+![Learning Curves](fig4_curves_side.png)
 *Training & validation accuracy/loss (18 epochs, early-stop at epoch 18)*
 
-![Confusion Matrix](assets/fig_confusion_matrix.png)
+![Confusion Matrix](confusion_matrix_fixed.png)
 *Normalised confusion matrix (36 classes)*
 
 ### Error Analysis
@@ -50,7 +50,7 @@ A **97.5 %-accurate** transfer-learning model that distinguishes 36 kinds of fru
 | Corn ↔ Sweetcorn        | Close-up kernels vs whole cob         |
 | Carrot (clip-art) → Radish | Simplified tapered shape          |
 
-See: `assets/fig_misclassified.png` for examples.
+![Miscalssified](misclassified_predictions.png)
 
 ---
 
